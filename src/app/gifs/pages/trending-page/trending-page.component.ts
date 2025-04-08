@@ -24,5 +24,5 @@ import { GifService } from '../../services/gifs.service';
   templateUrl: './trending-page.component.html',
 })
 export default class TrendingPageComponent {
-  GifService = inject(GifService);
+  gifService = inject(GifService);
  }
